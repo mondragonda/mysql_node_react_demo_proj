@@ -1,0 +1,53 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+    padding: 1.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.CardTitle {
+    margin-bottom: 30px;
+}
+
+.CommentFormHeader {
+    align-self: flex-start;
+}
+
+.CommentFormBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 245px;
+}
+
+.CommentFormButton {
+    align-self: flex-end;
+    border-color: lightgrey;
+    border-width: 1.5px;
+    height: 30px;
+    background-color: white;
+}
+
+.CommentItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 45px;
+}
+
+.CommentItemButtonBar {
+    display: flex;
+    flex-direction: row;
+    width: 95px;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    min-height: 28px;
+}
